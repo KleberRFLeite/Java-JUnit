@@ -29,7 +29,7 @@ public class SingleConnection {
 				connection = DriverManager.getConnection(url, user, password);
 				connection.setAutoCommit(false);
 				
-				System.out.println("Conectou com sucesssso");
+				System.out.println("Conectou com sucesso");
 			}
 			
 		} catch (Exception e) {
